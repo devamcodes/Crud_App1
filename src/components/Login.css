@@ -1,0 +1,30 @@
+@media all and (min-width: 480px) {
+	.Login {
+		padding: 60px 0;
+		margin-top: 10%;
+		background-color: rgb(188, 161, 149);
+		border-radius: 20px;
+		width: 444px;
+		height: 200px;
+	}
+
+	.Login form {
+		margin: 0 auto;
+		max-width: 320px;
+	}
+	.forminput {
+		display: flex;
+		margin: 10px;
+		justify-content: space-between;
+	}
+	.loginButton {
+		margin: 10px;
+		margin-top: 20px;
+		padding: 10px;
+		font-size: large;
+		font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+		background-color: #5b9fe8;
+		/* color: black; */
+		border-radius: 23px;
+	}
+}
